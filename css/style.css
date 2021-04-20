@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	background: linear-gradient(to bottom, #000000 0%, #3d3d3c 7.5%, #50504f 33%, #cc6809 49.5%, #50504f 66%, #3d3d3c 82.5%, #000000 94%);
+}
+
+#banner {
+	background-color: black;
+	color: #cc6809;
+	/*text-shadow: 2px 2px #50504f;*/
+	text-shadow: -3px 3px 2px #048073, 3px 3px 2px #50504f;
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+hr {
+	margin: 5px 0;
+	color: #cc6809;
+}
+
+.sitemenu {
+	background-color: black;
+	color: #cc6809;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.sitemenu li{
+	display: inline-block;
+	padding: 10px;
+	text-shadow: none;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sitemenu a{
+	text-decoration: none;
+}
+
+.sitemenu a:visited{
+	color: #cc6809;
+}
+
+.sitemenu a:hover{
+	color: #048073;
+}
+
+.sitemenu li:hover, li:active{
+	color: #048073;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover {
+	color: #048073;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3d3d3c;
+  border: 2px solid #cc6809;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  padding: 7px 5px;
+  z-index: 1;
+  font-size: .65em;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer {
+	width: 100%;
+	height: 76px;
+	margin-top: 150px;
+}
+
+.footer #contact{
+	color: #cc6809;
+	float: left;
+	margin-left: 1.5%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer #contact a{
+	color: #cc6809;
+	text-decoration: none;
+}
+
+.footer #bottombanner{
+	float: left;
+	margin-top: 8px;
+	margin-left: 27%;
+}
+
+.footer h1{
+	color: #cc6809;
+	/*text-shadow: 2px 2px #50504f;*/
+	text-shadow: -2px 2px 2px #048073, 2px 2px 2px #50504f;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.footer #social{
+	display: block;
+	width: 40px;
+	float: right;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	padding: 0px 5px;
+}
+
+.footer #medialinks{
+	width: 15%;
+	float: right;
+	margin-right: 1%;
+}
+
+.home {
+	margin: 25px auto;
+	width: 95%;
+	margin-bottom: 76px;
+}
+
+.home img {
+	background-color: white;
+	border: 3px solid #3d3d3c;
+}
+
+.home h2{
+	font-size: 5em;
+}
+
+.home #name{
+	font-weight: bold;
+	margin: 45px auto 20px;
+	color: white;
+	text-shadow: 3px 3px 2px #048073, -3px 3px 2px black;
+	width: 45%;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.home #titles{
+	font-size: 3em;
+	color: white;
+	text-shadow: 2px 2px 2px #048073,/* -2px -2px 2px #a722ff, */-2px 2px 2px black;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-left: 12.5%;
+	margin-top: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.home #titles li {
+	padding: 20px 0px;
+}
+
+.home #me{
+	display:block;
+	width: 50%;
+	float: right;
+	margin-top: 60px;
+	box-shadow: 0px 8px 16px 0px #048073;
+	z-index: -1;
+}
+
+.home #logo{
+	display: block;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+	border: none;
+	z-index: 2;
+	margin-top: 45px;
+}
+
+.resume table{
+	margin:45px auto;
+	width: 90%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.resume table, td, th{
+	border: 3px solid black;
+	background-color: white;
+	color: black;
+}
+
+.resume th{
+	background-color: #cc6809;
+	text-shadow: 2px 2px #50504f;
+	color: white;
+	padding: 5px 0px 7px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.resume td{
+	text-align: left;
+	padding: 10px;
+}
+
+.resume h2{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.resume h3{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.resume h4{
+	font-size: 1.35em;
+	font-style: italic;
+}
+
+.resume h5{
+	font-size: 1.2em;
+}
+
+.resume li{
+	font-size: 1.35em;
+	padding: 8px 5px;
+}
+
+.tresume table{
+	margin:45px auto;
+	width: 90%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.tresume table, td, th{
+	border: 3px solid black;
+	background-color: white;
+	color: black;
+}
+
+.tresume th{
+	background-color: #cc6809;
+	text-shadow: 2px 2px #50504f;
+	color: white;
+	padding: 5px 0px 7px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.tresume td{
+	text-align: left;
+	padding: 10px;
+}
+
+.tresume h2{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.tresume h3{
+	font-size: 1.5em;
+}
+
+.tresume li{
+	font-size: 1.35em;
+	padding: 10px 5px;
+}
+
+#show {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#skills{
+	text-align: center;
+	columns: 100px 3;
+	padding: 10px 5px;
+}
+
+.about {
+	width: 90%;
+	margin: 45px 5%;
+}
+
+.about h2{
+	font-size: 3.5em;
+	color: white;
+	text-shadow: -2px -2px 2px black, 2px 2px 2px #048073;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.about p{
+	font-size: 1.75em;
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-shadow: 1px 1px #3d3d3c;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.about a{
+	color: #048073;
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+}
+
+.about a:hover {
+	color: white;
+	background-color: #a722ff;
+	border: 2px solid white;
+}
+
+.about #aboutme{
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: left;
+}
+
+.about #me2{
+	width: 45%;
+	float: left;
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	border: 3px solid #3d3d3c;
+	box-shadow: 0px 8px 16px 0px #048073;
+}
+
+.gallery {
+	width: 90%;
+	margin-bottom: 76px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.gallery img{
+	display: block;
+	float: left;
+	width: 21%;
+	margin: 30px 5.5% 70px 5.5%;
+	background-color: #fff9dc;
+	padding: 7px 7px 60px 7px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+	height: 200px;
+	object-fit: cover;
+}
+
+.showtitle {
+	margin: 25px auto;
+	width: 95%;
+	margin-bottom: 76px;
+}
+
+.showtitle h2{
+	font-size: 5em;
+	font-weight: bold;
+	margin: 45px auto 20px;
+	color: white;
+	text-shadow: 3px 3px 2px #048073, -3px 3px 2px black;
+	width: 45%;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.showtitle #byteme{
+	color: #66f043;
+}
