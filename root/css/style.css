@@ -379,3 +379,21 @@ hr {
 .showtitle #byteme{
 	color: #66f043;
 }
+
+.graphictech {
+	margin-left: 18%;
+	margin-right: auto;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: .33fr .5fr .5fr .33fr;
+	grid-auto-rows: minmax(500px, auto);
+	grid-gap: 15px;
+}
+
+.graphictech #gt1{
+	grid-column: 1/2;
+}
+
+.graphictech #gt2{
+	grid-column: 2/3;
+}
