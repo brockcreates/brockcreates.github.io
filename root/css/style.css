@@ -18,7 +18,7 @@ body {
 
 hr {
 	margin: 5px 0;
-	color: #cc6809;
+	border-color: #cc6809;
 }
 
 .sitemenu {
@@ -396,4 +396,37 @@ hr {
 
 .graphictech #gt2{
 	grid-column: 2/3;
+}
+
+
+.theatreprojects {
+  /*background-color: #333:*/
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+	flex-flow: row wrap;
+}
+
+.tpslot {
+	background-color: white;
+	border: 3px solid black;
+  min-width: 300px;
+  max-width: 500px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.tpslot a {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.tptext {
+  padding: 20px 20px 10px 20px;
+	height: 100px;
+}
+
+.tptext h3 {
+	font-size: 1.5em;
+	font-weight: bold;
 }
