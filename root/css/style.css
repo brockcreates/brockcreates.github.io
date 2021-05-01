@@ -7,7 +7,7 @@ body {
 
 #banner {
 	background-color: black;
-	color: #cc6809;
+	color: white;
 	/*text-shadow: 2px 2px #50504f;*/
 	text-shadow: -3px 3px 2px #048073, 3px 3px 2px #50504f;
 	font-size: 5em;
@@ -103,7 +103,7 @@ hr {
 }
 
 .footer h1{
-	color: #cc6809;
+	color: white;
 	/*text-shadow: 2px 2px #50504f;*/
 	text-shadow: -2px 2px 2px #048073, 2px 2px 2px #50504f;
 	font-size: 2.5em;
@@ -200,7 +200,7 @@ hr {
 }
 
 .resume th{
-	background-color: #cc6809;
+	background: linear-gradient(to right, #cc6809 20%, #333 30%, #333 70%, #cc6809 80%);
 	text-shadow: 2px 2px #50504f;
 	color: white;
 	padding: 5px 0px 7px 0px;
@@ -249,7 +249,7 @@ hr {
 }
 
 .tresume th{
-	background-color: #cc6809;
+	background: linear-gradient(to right, #cc6809 20%, #333 30%, #333 70%, #cc6809 80%);
 	text-shadow: 2px 2px #50504f;
 	color: white;
 	padding: 5px 0px 7px 0px;
@@ -264,6 +264,8 @@ hr {
 .tresume h2{
 	font-size: 2em;
 	font-weight: bold;
+	/*text-shadow: 1px 1px white;
+	color: #333;*/
 }
 
 .tresume h3{
@@ -340,7 +342,7 @@ hr {
 	box-shadow: 0px 8px 16px 0px #048073;
 }
 
-.gallery {
+/*.gallery {
 	width: 90%;
 	margin-bottom: 76px;
 	margin-left:5%;
@@ -358,7 +360,7 @@ hr {
 	height: 200px;
 	object-fit: cover;
 }
-
+*/
 .showtitle {
 	margin: 25px auto;
 	width: 95%;
@@ -385,8 +387,8 @@ hr {
 	margin-right: auto;
 	margin-top: 20px;
 	display: grid;
-	grid-template-columns: .33fr .5fr .5fr .33fr;
-	grid-auto-rows: minmax(500px, auto);
+	grid-template-columns: .3fr .5fr .5fr .3fr;
+	grid-auto-rows: minmax(300px, auto);
 	grid-gap: 15px;
 }
 
@@ -410,7 +412,7 @@ hr {
 
 .tpslot {
 	background-color: white;
-	border: 3px solid black;
+	border: 4px solid black;
   min-width: 300px;
   max-width: 500px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
@@ -429,4 +431,50 @@ hr {
 .tptext h3 {
 	font-size: 1.5em;
 	font-weight: bold;
+}
+
+.gallery {
+  /*background-color: #333:*/
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+	flex-flow: row wrap;
+}
+
+.showslot {
+	background-color: #222;
+	border: 4px solid black;
+  min-width: 300px;
+  max-width: 500px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.showslot a {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.showslot img {
+	border-bottom: 4px solid black;
+}
+.showtext {
+  padding: 10px 20px 10px 20px;
+	height: 115px;
+	color: white;
+}
+
+.showtext h3 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.showtext h2 {
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+.showtext p {
+	font-size: 1.10em;
 }
